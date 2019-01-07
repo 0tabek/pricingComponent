@@ -1,0 +1,62 @@
+body {
+  background: #85A5D4;
+  font-family: Roboto, sans-serif;
+  font-size: 100%;
+}
+
+.wrap {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.container{
+  background-color: white;
+  padding: 30px 30px 40px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item {
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.item:hover {
+  background-color: #F5F5F5;
+}
+
+.item .primary {
+  font-weight: 700;
+  color: #5572D6;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+}
+
+.item .price {
+  font-weight: 700;
+  color: #5572D6;
+}
+.item .price .n {
+  font-size: 2.2em;
+  letter-spacing: 1px;
+}
+
+.item .price .sign {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+.item .uppercase {
+  text-transform: uppercase;
+}
+
+.item .secondary {
+  font-weight: 500;
+  color: #A7A8A9;
+  font-size: 1.1em;
+}
+
+img {
+  width: 80px;
+}
